@@ -1,0 +1,10 @@
+/* basics = basic things for the design the reacccur*/
+@import url(basics/base.css);
+@import url(basics/layout.css);
+
+/* setup = css rules or usable while working */ 
+@import url(setup/variables.css);
+@import url(setup/typography.css);
+
+
+

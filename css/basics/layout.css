@@ -1,0 +1,8 @@
+body {
+    display: grid;
+    grid-template-columns:
+        minmax(258px, 1fr) 
+        minmax(auto, 983px) 
+        minmax(258px, 1fr);
+
+}
