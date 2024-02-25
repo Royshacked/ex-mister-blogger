@@ -1,4 +1,4 @@
-body {
+.main-layout {
     display: grid;
     grid-template-columns:
         minmax(258px, 1fr) 
@@ -13,4 +13,9 @@ body {
 
 .main-layout >*.full {
     grid-column: 1 /-1;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
 }
