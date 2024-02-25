@@ -1,4 +1,27 @@
 .main-header {
     height: 131px;
+    background-color: RGBA(41, 41, 41, 1);
 }
+
+.main-header .header .logo {
+    color:var(--header-clr);
+    font-family: euro,serif;
+    font-size: 2.5em;
+}
+
+.main-header .main-nav button {
+    width: 134px;
+    height: 134px;
+
+    border:0;
+
+    background-color: RGBA(41, 41, 41, 1);
+}
+
+.main-header .main-nav button a {
+    color:var(--header-clr);
+    font-size:1em;
+    text-decoration: none;
+}
+
 
