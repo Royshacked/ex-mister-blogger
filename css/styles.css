@@ -8,5 +8,6 @@
 @import url(setup/typography.css);
 
 /* components */
-@import url(components/main-header.css)
+@import url(components/main-header.css);
+@import url(components/main-content.css);
 

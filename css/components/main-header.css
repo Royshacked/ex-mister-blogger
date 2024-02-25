@@ -1,5 +1,5 @@
 .main-header {
-    height: 131px;
+    height: 8.1875em;
     background-color: RGBA(41, 41, 41, 1);
 }
 
@@ -10,8 +10,8 @@
 }
 
 .main-header .main-nav button {
-    width: 134px;
-    height: 134px;
+    width: 8.375em;
+    height: 8.1875em;
 
     border:0;
 
