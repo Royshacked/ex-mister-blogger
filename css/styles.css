@@ -9,5 +9,8 @@
 
 /* components */
 @import url(components/main-header.css);
+@import url(components/main-container.css);
 @import url(components/card.css);
+@import url(components/main-paging.css);
+@import url(components/main-footer.css);
 
