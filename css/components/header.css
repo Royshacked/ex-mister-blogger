@@ -1,0 +1,41 @@
+.main-header {
+    background-color: var(--header-bgc-clr);
+    color:var(--header-txt-clr);
+}
+
+.header .header-logo {
+    font-size: 2.5em;
+    font-family: euro;
+}
+
+.header .main-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 134px;
+    height: 134px;
+
+    border-block-end:1px solid var(--header-bgc-clr);
+
+    color:var(--header-txt-clr);
+    font-size: 1em;
+    font-family: lato-regular;
+    text-decoration: none;
+}
+
+.header .main-nav a:hover {
+    color: var(--active-clr);
+    border-block-end:4px solid var(--active-clr);
+}
+
+header .main-nav > li {
+    border-inline-start: 1px solid black;
+}
+
+.header .main-nav > li:last-of-type {
+    border-inline-end: 1px solid black;
+}
+
+
+
