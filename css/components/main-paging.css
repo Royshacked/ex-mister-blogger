@@ -4,17 +4,14 @@
 
     height: 70px;
 
-    border-color: RGBA(225, 224, 224, 1);
-    border-width: 1px;
-    border-style: solid;
-    border-collapse: collapse;
+    border-inline: 1px solid RGBA(225, 224, 224, 1);
 }
 
 .main-paging .paging {
     border: 0;
 
-    background-color: white;
-    color:#818181;
+    background-color: var(--primary-bgc-clr-base);
+    color:var(--paging-clr);
 
     font-family: lato-regular;
     font-weight: bold;
