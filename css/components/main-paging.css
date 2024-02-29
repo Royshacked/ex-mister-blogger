@@ -1,13 +1,3 @@
-.main-paging {
-    display: flex;
-    justify-content: space-between;
-
-    height: 70px;
-
-    border-inline: 1px solid var(--primary-borders-clr);
-    border-block-start: 1px solid var(--primary-borders-clr);
-}
-
 .main-paging .paging {
     border: 0;
 

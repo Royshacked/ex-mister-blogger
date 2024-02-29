@@ -2,25 +2,9 @@
     border-inline: 1px solid var(--primary-borders-clr);
 }
 
-.card {
-    display: grid;
-    grid-auto-flow: column;
-    gap: 2.5em;
-
-    margin-block-end: 5em;
-}
-
-.card:first-of-type {
-    margin-block-start:5em ;
-}
-
 .card .card-image {
     align-self: stretch;
     object-fit:fill;
-}
-
-.card .card-content {
-    display: grid;
 }
 
 .card .card-content .card-title {
